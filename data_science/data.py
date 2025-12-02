@@ -7,7 +7,7 @@ This module contains functions for splitting data into train and test sets.
 
 import pandas as pd
 import numpy as np
-from typing import Tuple, Optional, Union
+from typing import Tuple, Optional, Union, Dict, List
 from sklearn.model_selection import train_test_split, StratifiedShuffleSplit
 import logging
 from pathlib import Path
